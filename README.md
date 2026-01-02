@@ -9,3 +9,5 @@ Tracking my progress through the LeetCode 75 study plan using Java.
 | 2 | 1071 | GCD of Strings | Array / String | [Java](./src/com/kr/ArrayString/LC1071GreatestCommonDivisorOfStrings.java) |
 | 3 | 1431 | Kids With Candies | Array / String | [Java](./src/com/kr/ArrayString/LC1431KidsWiththeGreatestNumberofCandies.java) |
 | 4 | 605 | Can Place Flowers | Array / String | [Java](./src/com/kr/ArrayString/LC605CanPlaceFlowers.java) |
+| 5 | 345 | Reverse Vowels of a String | Array / String | [Java](./src/com/kr/ArrayString/LC345ReverseVowelsOfAString.java) |
+| 6 | 151 | Reverse Words in a String | Array / String | [Java](./src/com/kr/ArrayString/LC151ReverseWordsInAString.java) |
