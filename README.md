@@ -13,6 +13,7 @@ Tracking my progress through the LeetCode 75 study plan using Java.
 | 5 | 345 | Reverse Vowels of a String | Array / String | Easy | [Java](./src/com/kr/ArrayString/LC345ReverseVowelsOfAString.java) |
 | 6 | 151 | Reverse Words in a String | Array / String | Medium | [Java](./src/com/kr/ArrayString/LC151ReverseWordsInAString.java) |
 | 7 | 238 | Product of Array Except Self | Array / String | Medium | [Java](./src/com/kr/ArrayString/LC238ProductOfArrayExceptSelf.java) |
+| 8 | 334 | Increasing Triplet Subsequence | Array / String | Medium | [Java](./src/com/kr/ArrayString/LC334IncreasingTripletSubsequence.java) |
 
 ---
 
