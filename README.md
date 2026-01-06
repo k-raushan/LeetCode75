@@ -14,6 +14,7 @@ Tracking my progress through the LeetCode 75 study plan using Java.
 | 6 | 151 | Reverse Words in a String | Array / String | Medium | [Java](./src/com/kr/ArrayString/LC151ReverseWordsInAString.java) |
 | 7 | 238 | Product of Array Except Self | Array / String | Medium | [Java](./src/com/kr/ArrayString/LC238ProductOfArrayExceptSelf.java) |
 | 8 | 334 | Increasing Triplet Subsequence | Array / String | Medium | [Java](./src/com/kr/ArrayString/LC334IncreasingTripletSubsequence.java) |
+| 8 | 443 | String Compression | Array / String | Medium | [Java](./src/com/kr/ArrayString/LC443StringCompression.java) |
 
 ---
 
