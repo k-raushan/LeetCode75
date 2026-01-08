@@ -16,6 +16,7 @@ Tracking my progress through the LeetCode 75 study plan using Java.
 | 8 | 334 | Increasing Triplet Subsequence | Array / String | Medium | [Java](./src/com/kr/ArrayString/LC334IncreasingTripletSubsequence.java) |
 | 9 | 443 | String Compression | Array / String | Medium | [Java](./src/com/kr/ArrayString/LC443StringCompression.java) |
 | 10 | 283 | Move Zeroes | Two Pointers | Easy | [Java](./src/com/kr/TwoPointers/LC283MoveZeroes.java) |
+| 11 | 283 | Is Subsequence | Two Pointers | Easy | [Java](./src/com/kr/TwoPointers/LC392IsSubsequence.java) |
 
 ---
 
