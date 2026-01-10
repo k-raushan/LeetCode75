@@ -17,6 +17,7 @@ Tracking my progress through the LeetCode 75 study plan using Java.
 | 9 | 443 | String Compression | Array / String | Medium | [Java](./src/com/kr/ArrayString/LC443StringCompression.java) |
 | 10 | 283 | Move Zeroes | Two Pointers | Easy | [Java](./src/com/kr/TwoPointers/LC283MoveZeroes.java) |
 | 11 | 283 | Is Subsequence | Two Pointers | Easy | [Java](./src/com/kr/TwoPointers/LC392IsSubsequence.java) |
+| 12 | 11 | Container With Most Water | Two Pointers | Medium | [Java](./src/com/kr/TwoPointers/LC11ContainerWithMostWater.java) |
 
 ---
 
@@ -24,3 +25,4 @@ Tracking my progress through the LeetCode 75 study plan using Java.
 * **Two Pointers:** Used for reversing strings and merging.
 * **Backward Scan:** Learned to parse words by starting from the end of the string.
 * **Prefix/Suffix Products:** Optimized $O(n^2)$ logic into $O(n)$ by pre-calculating products from both sides.
+* **Greedy Two-Pointer Logic:** Learned that to maximize area, you must move the pointer associated with the shorter height to search for a better height/width trade-off.
