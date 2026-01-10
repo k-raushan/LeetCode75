@@ -18,6 +18,7 @@ Tracking my progress through the LeetCode 75 study plan using Java.
 | 10 | 283 | Move Zeroes | Two Pointers | Easy | [Java](./src/com/kr/TwoPointers/LC283MoveZeroes.java) |
 | 11 | 283 | Is Subsequence | Two Pointers | Easy | [Java](./src/com/kr/TwoPointers/LC392IsSubsequence.java) |
 | 12 | 11 | Container With Most Water | Two Pointers | Medium | [Java](./src/com/kr/TwoPointers/LC11ContainerWithMostWater.java) |
+| 13 | 1679 | Max Number of K-Sum Pairs | Two Pointers | Medium | [Java](./src/com/kr/TwoPointers/LC1679MaxNumberOfKSumPairs.java) |
 
 ---
 
