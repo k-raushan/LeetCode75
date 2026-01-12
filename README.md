@@ -20,6 +20,7 @@ Tracking my progress through the LeetCode 75 study plan using Java.
 | 12 | 11 | Container With Most Water | Two Pointers | Medium | [Java](./src/com/kr/TwoPointers/LC11ContainerWithMostWater.java) |
 | 13 | 1679 | Max Number of K-Sum Pairs | Two Pointers | Medium | [Java](./src/com/kr/TwoPointers/LC1679MaxNumberOfKSumPairs.java) |
 | 14 | 643 | Maximum Average Subarray I | Sliding Window | Medium | [Java](./src/com/kr/SlidingWindow/LC643MaximumAverageSubarrayI.java) |
+| 15 | 1456 | . Maximum Number of Vowels in a Substring of Given Length | Sliding Window | Medium | [Java](./src/com/kr/SlidingWindow/LC1456MaximumNumberOfVowelsInASubstringOfGivenLength.java) |
 
 ---
 
