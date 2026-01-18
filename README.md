@@ -24,7 +24,9 @@ Tracking my progress through the LeetCode 75 study plan using Java.
 | 16 | 1004 | Max Consecutive Ones III | Sliding Window | Medium | [Java](./src/com/kr/SlidingWindow/LC1004MaxConsecutiveOnesIII.java) |
 | 17 | 1493 | Longest Subarray of 1's After Deleting One Element | Sliding Window | Medium | [Java](./src/com/kr/SlidingWindow/LC1493LongestSubarrayOf1sAfterDeletingOneElement.java) |
 | 18 | 1732 | Find the Highest Altitude | Prefix Sum | Easy | [Java](./src/com/kr/PrefixSum/LC1732FindTheHighestAltitude.java) |
-
+| 19 | 724 | Find Pivot Index | Prefix Sum | Easy | [Java](./src/com/kr/PrefixSum/LC724FindPivotIndex.java) |
+| 20 | 2215 | Find the Difference of Two Arrays
+ | Hash Map / Set | Easy | [Java](./src/com/kr/HashMapOrSet/LC2215FindTheDifferenceOfTwoArrays.java) |
 ---
 
 ### 💡 Key Learnings this Week
