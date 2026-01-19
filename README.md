@@ -1,1 +1,82 @@
-🚀 LeetCode 75 Challenge - JavaTracking my progress through the LeetCode 75 study plan. This repository contains optimized Java solutions, logic visualizations, and key architectural learnings.📊 Progress SummaryTotal Solved: 21 / 75Category Focus: Array, String, Two Pointers, Sliding Window, Prefix Sum, Hash Map/Set.📅 Roadmap & Solutions🔹 Array / StringDay#TitleDifficultySolution11768Merge Strings AlternatelyEasyJava21071GCD of StringsEasyJava31431Kids With CandiesEasyJava4605Can Place FlowersEasyJava5345Reverse Vowels of a StringEasyJava6151Reverse Words in a StringMediumJava7238Product of Array Except SelfMediumJava8334Increasing Triplet SubsequenceMediumJava9443String CompressionMediumJava🔹 Two PointersDay#TitleDifficultySolution10283Move ZeroesEasyJava11392Is SubsequenceEasyJava1211Container With Most WaterMediumJava131679Max Number of K-Sum PairsMediumJava🔹 Sliding WindowDay#TitleDifficultySolution14643Maximum Average Subarray IEasyJava151456Max Vowels in SubstringMediumJava161004Max Consecutive Ones IIIMediumJava171493Longest Subarray of 1's After Deleting OneMediumJava🔹 Prefix SumDay#TitleDifficultySolution181732Find the Highest AltitudeEasyJava19724Find Pivot IndexEasyJava🔹 Hash Map / SetDay#TitleDifficultySolution202215Find the Difference of Two ArraysEasyJava211207Unique Number of OccurrencesEasyJava
+# 🚀 LeetCode 75 Challenge - Java
+
+Tracking my progress through the LeetCode 75 study plan. This repository contains optimized Java solutions, logic visualizations, and key architectural learnings.
+
+## 📊 Progress Summary
+* **Total Solved:** 21 / 75
+* **Category Focus:** Array, String, Two Pointers, Sliding Window, Prefix Sum, Hash Map/Set.
+
+---
+
+## 📅 Roadmap & Solutions
+
+### 🔹 Array / String
+
+| Day | # | Title | Difficulty | Solution |
+| :--- | :--- | :--- | :--- | :--- |
+| 1 | 1768 | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) | Easy | [Java](./src/com/kr/ArrayString/LC1768MergeStringsAlternately.java) |
+| 2 | 1071 | [GCD of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) | Easy | [Java](./src/com/kr/ArrayString/LC1071GreatestCommonDivisorOfStrings.java) |
+| 3 | 1431 | [Kids With Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | Easy | [Java](./src/com/kr/ArrayString/LC1431KidsWiththeGreatestNumberofCandies.java) |
+| 4 | 605 | [Can Place Flowers](https://leetcode.com/problems/can-place-flowers/) | Easy | [Java](./src/com/kr/ArrayString/LC605CanPlaceFlowers.java) |
+| 5 | 345 | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/) | Easy | [Java](./src/com/kr/ArrayString/LC345ReverseVowelsOfAString.java) |
+| 6 | 151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | Medium | [Java](./src/com/kr/ArrayString/LC151ReverseWordsInAString.java) |
+| 7 | 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | Medium | [Java](./src/com/kr/ArrayString/LC238ProductOfArrayExceptSelf.java) |
+| 8 | 334 | [Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/) | Medium | [Java](./src/com/kr/ArrayString/LC334IncreasingTripletSubsequence.java) |
+| 9 | 443 | [String Compression](https://leetcode.com/problems/string-compression/) | Medium | [Java](./src/com/kr/ArrayString/LC443StringCompression.java) |
+
+### 🔹 Two Pointers
+
+| Day | # | Title | Difficulty | Solution |
+| :--- | :--- | :--- | :--- | :--- |
+| 10 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | Easy | [Java](./src/com/kr/TwoPointers/LC283MoveZeroes.java) |
+| 11 | 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | Easy | [Java](./src/com/kr/TwoPointers/LC392IsSubsequence.java) |
+| 12 | 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | Medium | [Java](./src/com/kr/TwoPointers/LC11ContainerWithMostWater.java) |
+| 13 | 1679 | [Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/) | Medium | [Java](./src/com/kr/TwoPointers/LC1679MaxNumberOfKSumPairs.java) |
+
+### 🔹 Sliding Window
+
+| Day | # | Title | Difficulty | Solution |
+| :--- | :--- | :--- | :--- | :--- |
+| 14 | 643 | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) | Easy | [Java](./src/com/kr/SlidingWindow/LC643MaximumAverageSubarrayI.java) |
+| 15 | 1456 | [Max Vowels in Substring](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/) | Medium | [Java](./src/com/kr/SlidingWindow/LC1456MaximumNumberOfVowelsInASubstringOfGivenLength.java) |
+| 16 | 1004 | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/) | Medium | [Java](./src/com/kr/SlidingWindow/LC1004MaxConsecutiveOnesIII.java) |
+| 17 | 1493 | [Longest Subarray of 1's After Deleting One](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/) | Medium | [Java](./src/com/kr/SlidingWindow/LC1493LongestSubarrayOf1sAfterDeletingOneElement.java) |
+
+### 🔹 Prefix Sum
+
+| Day | # | Title | Difficulty | Solution |
+| :--- | :--- | :--- | :--- | :--- |
+| 18 | 1732 | [Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/) | Easy | [Java](./src/com/kr/PrefixSum/LC1732FindTheHighestAltitude.java) |
+| 19 | 724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | Easy | [Java](./src/com/kr/PrefixSum/LC724FindPivotIndex.java) |
+
+### 🔹 Hash Map / Set
+
+| Day | # | Title | Difficulty | Solution |
+| :--- | :--- | :--- | :--- | :--- |
+| 20 | 2215 | [Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/) | Easy | [Java](./src/com/kr/HashMapOrSet/LC2215FindTheDifferenceOfTwoArrays.java) |
+| 21 | 1207 | [Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/) | Easy | [Java](./src/com/kr/HashMapOrSet/LC1207UniqueNumberOfOccurrences.java) |
+
+---
+
+## 💡 Key Technical Insights
+
+### 🛠 Array & String
+* **GCD of Strings:** Learned that string concatenation order (`s1 + s2 == s2 + s1`) is a mathematical proof for a common divisor.
+* **Product Except Self:** Mastered $O(n)$ space optimization by using a single array to store prefix products and updating it with a suffix running product.
+* **Triple Subsequence:** Realized that tracking the two smallest numbers so far is enough to identify a third, avoiding nested loops.
+
+### ↔️ Two Pointers
+* **Greedy Movement:** In "Container With Most Water," moving the pointer at the shorter height is the only way to potentially find a larger area, as width is always decreasing.
+* **Opposite Directions vs. Same Direction:** Used opposite pointers for swapping/reversing and same-direction pointers for "Is Subsequence" checks.
+
+### 🪟 Sliding Window
+* **Fixed vs. Dynamic Windows:** Learned to use fixed size for average subarrays and dynamic size (expanding/shrinking) for longest subarray problems involving constraints (like "K zeros allowed").
+* **Resource Management:** Used the "Rubber Band" approach—only shrinking the left pointer when the constraint (e.g., number of zeros) is violated.
+
+### 📉 Prefix Sum
+* **Total Sum Logic:** For pivot indexes, calculating `TotalSum` allows us to derive `RightSum` using `TotalSum - LeftSum - CurrentElement`, turning an $O(n^2)$ problem into $O(n)$.
+* **Running Maximums:** Learned that `Math.max(max, current)` is often cleaner than `if` branches and can be optimized by JVM intrinsics.
+
+### 🔑 Hash Map & Set
+* **Constructive vs. Destructive Logic:** Built result lists by checking `!set.contains()` rather than modifying sets during iteration to avoid `ConcurrentModificationException`.
+* **Frequency Mapping:** Used `getOrDefault` to create frequency maps and checked uniqueness by comparing `map.size()` to `new HashSet(map.values()).size()`.
