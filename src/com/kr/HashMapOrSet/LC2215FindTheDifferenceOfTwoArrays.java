@@ -11,11 +11,11 @@ public class LC2215FindTheDifferenceOfTwoArrays {
 	public static void main(String[] args) {
 		SolutionLC2215 solution = new SolutionLC2215();
 
-		int[] gain1 = { 1, 2, 3 };
-		int[] gain2 = { 2, 4, 6 };
+		int[] array1 = { 1, 2, 3 };
+		int[] array2 = { 2, 4, 6 };
 
 		System.out.println(solution
-				.findDifference(gain1, gain2));
+				.findDifference(array1, array2));
 
 		System.out.println(
 				"**************************************");
