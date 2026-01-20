@@ -1,3 +1,8 @@
+/**
+ * Day 8: LC 334 - Increasing Triplet Subsequence
+ * Time Complexity: O(n) - We maintain two variables (first, second) in a single pass.
+ * Space Complexity: O(1) - Only two variables used regardless of input size.
+ */
 package com.kr.ArrayString;
 
 public class LC334IncreasingTripletSubsequence {
@@ -6,13 +11,16 @@ public class LC334IncreasingTripletSubsequence {
 		SolutionLC334 solution = new SolutionLC334();
 
 		int[] array1 = { 1, 2, 3, 4, 5 };
-		System.out.println(solution.increasingTriplet(array1));
+		System.out.println(solution
+				.increasingTriplet(array1));
 
 		int[] array2 = { 5, 4, 3, 2, 1 };
-		System.out.println(solution.increasingTriplet(array2));
+		System.out.println(solution
+				.increasingTriplet(array2));
 
 		int[] array3 = { 2, 1, 5, 0, 4, 6 };
-		System.out.println(solution.increasingTriplet(array3));
+		System.out.println(solution
+				.increasingTriplet(array3));
 
 	}
 

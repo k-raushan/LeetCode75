@@ -1,3 +1,8 @@
+/**
+ * Day 12: LC 11 - Container With Most Water
+ * Time Complexity: O(n) - Converging two pointers from edges to the center.
+ * Space Complexity: O(1) - Only constant extra variables for max area.
+ */
 package com.kr.TwoPointers;
 
 public class LC11ContainerWithMostWater {

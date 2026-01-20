@@ -1,3 +1,8 @@
+/**
+ * Day 14: LC 643 - Maximum Average Subarray I
+ * Time Complexity: O(n) - Single pass using the sliding window sum update.
+ * Space Complexity: O(1) - Only storing sum and max average.
+ */
 package com.kr.SlidingWindow;
 
 public class LC643MaximumAverageSubarrayI {

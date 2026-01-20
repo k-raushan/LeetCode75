@@ -1,3 +1,8 @@
+/**
+ * Day 19: LC 724 - Find Pivot Index
+ * Time Complexity: O(n) - Total sum calculated once, then prefix sum updated in one pass.
+ * Space Complexity: O(1) - Only using total sum and left sum variables.
+ */
 package com.kr.PrefixSum;
 
 public class LC724FindPivotIndex {

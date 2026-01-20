@@ -1,3 +1,8 @@
+/**
+ * Day 18: LC 1732 - Find the Highest Altitude
+ * Time Complexity: O(n) - Calculating prefix sums on the fly to find the max.
+ * Space Complexity: O(1) - Only tracking current altitude and max altitude.
+ */
 package com.kr.PrefixSum;
 
 public class LC1732FindTheHighestAltitude {

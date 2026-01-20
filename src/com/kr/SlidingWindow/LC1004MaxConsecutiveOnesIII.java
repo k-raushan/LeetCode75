@@ -1,3 +1,8 @@
+/**
+ * Day 16: LC 1004 - Max Consecutive Ones III
+ * Time Complexity: O(n) - Sliding window expands right and contracts left when k is exceeded.
+ * Space Complexity: O(1) - Only pointer variables used.
+ */
 package com.kr.SlidingWindow;
 
 public class LC1004MaxConsecutiveOnesIII {

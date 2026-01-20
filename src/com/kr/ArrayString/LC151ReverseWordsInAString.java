@@ -1,3 +1,8 @@
+/**
+ * Day 6: LC 151 - Reverse Words in a String
+ * Time Complexity: O(n) - One pass to reverse the entire string/words.
+ * Space Complexity: O(n) - Storing the result in a StringBuilder or array.
+ */
 package com.kr.ArrayString;
 
 public class LC151ReverseWordsInAString {
@@ -5,23 +10,33 @@ public class LC151ReverseWordsInAString {
 	public static void main(String[] args) {
 		SolutionLC151 solution = new SolutionLC151();
 
-		System.out.println(solution.reverseWords(" the sky is blue"));
+		System.out.println(solution.reverseWords(
+				" the sky is blue"));
 
-		System.out.println(solution.reverseWords(" hello world "));
+		System.out.println(solution
+				.reverseWords(" hello world "));
 
-		System.out.println(solution.reverseWords("a good   example"));
+		System.out.println(solution.reverseWords(
+				"a good   example"));
 
-		System.out.println(solution.reverseWords("abc"));
+		System.out.println(
+				solution.reverseWords("abc"));
 
 		SolutionLC151A solutionLC151A = new SolutionLC151A();
 
-		System.out.println(solutionLC151A.reverseWords(" the sky is blue"));
+		System.out.println(
+				solutionLC151A.reverseWords(
+						" the sky is blue"));
 
-		System.out.println(solutionLC151A.reverseWords(" hello world "));
+		System.out.println(solutionLC151A
+				.reverseWords(" hello world "));
 
-		System.out.println(solutionLC151A.reverseWords("a good   example"));
+		System.out.println(
+				solutionLC151A.reverseWords(
+						"a good   example"));
 
-		System.out.println(solutionLC151A.reverseWords("abc"));
+		System.out.println(solutionLC151A
+				.reverseWords("abc"));
 
 	}
 
@@ -33,8 +48,10 @@ class SolutionLC151 {
 		StringBuilder builder = new StringBuilder();
 		int leftCharAt = -1;
 		int rightCharAt = -1;
-		for (int i = s.length() - 1; i >= 0; i--) {
-			if (s.charAt(i) != ' ' && rightCharAt < 0) {
+		for (int i = s.length()
+				- 1; i >= 0; i--) {
+			if (s.charAt(i) != ' '
+					&& rightCharAt < 0) {
 				rightCharAt = i;
 			}
 
@@ -46,11 +63,14 @@ class SolutionLC151 {
 				}
 			}
 
-			if (leftCharAt >= 0 && rightCharAt >= 0) {
+			if (leftCharAt >= 0
+					&& rightCharAt >= 0) {
 				if (!builder.isEmpty()) {
 					builder.append(" ");
 				}
-				builder.append(s.substring(leftCharAt, rightCharAt + 1));
+				builder.append(
+						s.substring(leftCharAt,
+								rightCharAt + 1));
 				leftCharAt = -1;
 				rightCharAt = -1;
 			}
@@ -90,7 +110,8 @@ class SolutionLC151A {
 			}
 
 			// 5. Use substring to grab the word (from i+1 to right+1)
-			builder.append(s.substring(i + 1, rightCharAt + 1));
+			builder.append(s.substring(i + 1,
+					rightCharAt + 1));
 		}
 
 		return builder.toString();

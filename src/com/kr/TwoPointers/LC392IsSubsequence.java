@@ -1,3 +1,8 @@
+/**
+ * Day 11: LC 392 - Is Subsequence
+ * Time Complexity: O(n) - One pass through the target string with a pointer for the source.
+ * Space Complexity: O(1) - Only pointers used for tracking.
+ */
 package com.kr.TwoPointers;
 
 public class LC392IsSubsequence {

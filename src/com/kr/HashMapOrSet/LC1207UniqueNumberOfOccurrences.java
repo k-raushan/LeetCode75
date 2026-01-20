@@ -1,3 +1,8 @@
+/**
+ * Day 21: LC 1207 - Unique Number of Occurrences
+ * Time Complexity: O(n) - Building a frequency map and then a set of those frequencies.
+ * Space Complexity: O(n) - Storing frequencies in a HashMap and counts in a HashSet.
+ */
 package com.kr.HashMapOrSet;
 
 import java.util.HashMap;

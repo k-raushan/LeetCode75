@@ -1,3 +1,8 @@
+/**
+ * Day 17: LC 1493 - Longest Subarray of 1's After Deleting One Element
+ * Time Complexity: O(n) - Dynamic sliding window allowing one zero inside the window.
+ * Space Complexity: O(1) - Tracking zero counts and window size with variables.
+ */
 package com.kr.SlidingWindow;
 
 public class LC1493LongestSubarrayOf1sAfterDeletingOneElement {

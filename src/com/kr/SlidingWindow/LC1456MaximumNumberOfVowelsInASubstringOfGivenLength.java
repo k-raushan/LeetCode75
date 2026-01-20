@@ -1,3 +1,9 @@
+
+/**
+ * Day 15: LC 1456 - Maximum Number of Vowels in a Substring of Given Length
+ * Time Complexity: O(n) - Sliding window tracks vowel counts as it slides.
+ * Space Complexity: O(1) - Only constant variables to track count and max.
+ */
 package com.kr.SlidingWindow;
 
 public class LC1456MaximumNumberOfVowelsInASubstringOfGivenLength {

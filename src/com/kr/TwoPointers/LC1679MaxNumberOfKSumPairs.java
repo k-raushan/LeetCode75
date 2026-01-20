@@ -1,3 +1,8 @@
+/**
+ * Day 13: LC 1679 - Max Number of K-Sum Pairs
+ * Time Complexity: O(n log n) - Sorting the array dominates the time complexity.
+ * Space Complexity: O(1) - Sorting in-place (or O(n) depending on sort implementation).
+ */
 package com.kr.TwoPointers;
 
 import java.util.Arrays;

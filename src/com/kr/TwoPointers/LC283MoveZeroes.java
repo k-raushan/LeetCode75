@@ -1,3 +1,8 @@
+/**
+ * Day 10: LC 283 - Move Zeroes
+ * Time Complexity: O(n) - One pass to move non-zeros, fill remaining with zeros.
+ * Space Complexity: O(1) - Performed in-place on the input array.
+ */
 package com.kr.TwoPointers;
 
 import java.util.Arrays;
@@ -9,11 +14,13 @@ public class LC283MoveZeroes {
 
 		int[] array1 = { 0, 1, 0, 3, 12 };
 		solution.moveZeroes(array1);
-		System.out.println(Arrays.toString(array1));
+		System.out
+				.println(Arrays.toString(array1));
 
 		int[] array2 = { 0 };
 		solution.moveZeroes(array2);
-		System.out.println(Arrays.toString(array2));
+		System.out
+				.println(Arrays.toString(array2));
 
 	}
 

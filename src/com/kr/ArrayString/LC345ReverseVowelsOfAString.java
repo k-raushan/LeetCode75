@@ -1,3 +1,8 @@
+/**
+ * Day 5: LC 345 - Reverse Vowels of a String
+ * Time Complexity: O(n) - Two-pointer approach visits each character once.
+ * Space Complexity: O(n) - Required for the character array to perform swaps.
+ */
 package com.kr.ArrayString;
 
 public class LC345ReverseVowelsOfAString {
@@ -5,9 +10,11 @@ public class LC345ReverseVowelsOfAString {
 	public static void main(String[] args) {
 		SolutionLC345 solution = new SolutionLC345();
 
-		System.out.println(solution.reverseVowels("IceCreAm"));
+		System.out.println(solution
+				.reverseVowels("IceCreAm"));
 
-		System.out.println(solution.reverseVowels("leetcode"));
+		System.out.println(solution
+				.reverseVowels("leetcode"));
 
 	}
 

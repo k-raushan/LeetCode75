@@ -1,3 +1,8 @@
+/**
+ * Day 20: LC 2215 - Find the Difference of Two Arrays
+ * Time Complexity: O(n + m) - Building sets for both arrays and iterating through them.
+ * Space Complexity: O(n + m) - Storing unique elements in HashSets.
+ */
 package com.kr.HashMapOrSet;
 
 import java.util.ArrayList;
