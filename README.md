@@ -58,6 +58,12 @@ Tracking my progress through the LeetCode 75 study plan. This repository contain
 | 22 | 1657 | [Determine if Two Strings Are Close](https://leetcode.com/problems/determine-if-two-strings-are-close/) | Medium | [Java](./src/com/kr/HashMapOrSet/LC1657DetermineIfTwoStringsAreClose.java) |
 | 23 | 2352 | [Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/) | Medium | [Java](./src/com/kr/HashMapOrSet/LC2352EqualRowAndColumnPairs.java) |
 
+### 🔹 Stack
+
+| Day | # | Title | Difficulty | Solution |
+| :--- | :--- | :--- | :--- | :--- |
+| 24 | 2390 | [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/) | Medium | [Java](./src/com/kr/stack/LC2390RemovingStarsFromAString.java) |
+
 ---
 
 ## 💡 Key Technical Insights
@@ -85,3 +91,7 @@ Tracking my progress through the LeetCode 75 study plan. This repository contain
 * **Character/Frequency Decoupling:** Learned that strings are "close" if they share the same unique character set and their frequency counts match, regardless of which character has which count.
 * **Array vs. Collection Equality:** Discovered that `HashSet<int[]>` fails because arrays use reference equality (memory address), whereas `HashSet<List<Integer>>` works because `List` implements value-based equality.
 * **Polynomial Rolling Hash:** Explored the "Gold Standard" optimization of converting sequences into a single `long` hash to reduce space complexity from $O(N^2)$ to $O(N)$ and improve lookup speed.
+
+### 🔑 Stack
+* **LIFO for "Undo" Logic:** Identified that problems requiring a "backspace" or "undo" behavior are perfectly suited for Stack's Last-In-First-Out (LIFO) property.
+* **StringBuilder as an Optimized Stack:** Learned that `StringBuilder` can perform `append()` and `deleteCharAt(length - 1)` to mimic a Stack with $O(1)$ average time complexity while avoiding the formatting overhead of `java.util.Stack`.
