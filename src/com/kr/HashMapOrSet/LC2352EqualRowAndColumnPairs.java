@@ -20,12 +20,15 @@ public class LC2352EqualRowAndColumnPairs {
 
 	public static void main(String[] args) {
 		SolutionLC2352 solution = new SolutionLC2352();
+		SolutionLC2352_A solution_A = new SolutionLC2352_A();
 
 		int[][] grid1 = { { 3, 2, 1 },
 				{ 1, 7, 6 }, { 2, 7, 7 } };
 
 		System.out.println(
 				solution.equalPairs(grid1));
+		System.out.println(
+				solution_A.equalPairs(grid1));
 
 		System.out.println(
 				"**************************************");
@@ -36,7 +39,8 @@ public class LC2352EqualRowAndColumnPairs {
 
 		System.out.println(
 				solution.equalPairs(grid2));
-
+		System.out.println(
+				solution_A.equalPairs(grid2));
 		System.out.println(
 				"**************************************");
 
@@ -77,4 +81,53 @@ class SolutionLC2352 {
 
 	}
 
+}
+
+/*
+ * The "Gold Standard" approach is often referred to as Sparse Hashing
+ * or Custom Polynomial Rolling Hash.
+ * 
+ * Instead of creating N separate List<Integer> objects (which creates
+ * a lot of memory pressure for the Garbage Collector), we convert
+ * each row and column into a single long number. This allows us to
+ * use a HashMap<Long, Integer>, which is significantly faster and
+ * uses less memory.
+ */
+
+class SolutionLC2352_A {
+	public int equalPairs(int[][] grid) {
+		int n = grid.length;
+
+		// Map stores: Key = Hash of the row, Value = Count of
+		// occurrences
+		Map<Long, Integer> rowHashes = new HashMap<>();
+
+		// Calculate Hash for each Row
+		for (int i = 0; i < n; i++) {
+			long hash = 0;
+			for (int j = 0; j < n; j++) {
+				// Using a prime number (31) to create a unique
+				// fingerprint
+				hash = 31 * hash + grid[i][j];
+			}
+			rowHashes.put(hash, rowHashes
+					.getOrDefault(hash, 0) + 1);
+		}
+
+		int count = 0;
+		// Calculate Hash for each Column and check against
+		// rowHashes
+		for (int j = 0; j < n; j++) {
+			long colHash = 0;
+			for (int i = 0; i < n; i++) {
+				colHash = 31 * colHash
+						+ grid[i][j];
+			}
+			// If the column hash matches a row hash, we found pairs!
+			count += rowHashes
+					.getOrDefault(colHash, 0);
+		}
+
+		return count;
+	}
 }

@@ -55,6 +55,8 @@ Tracking my progress through the LeetCode 75 study plan. This repository contain
 | :--- | :--- | :--- | :--- | :--- |
 | 20 | 2215 | [Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/) | Easy | [Java](./src/com/kr/HashMapOrSet/LC2215FindTheDifferenceOfTwoArrays.java) |
 | 21 | 1207 | [Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/) | Easy | [Java](./src/com/kr/HashMapOrSet/LC1207UniqueNumberOfOccurrences.java) |
+| 22 | 1657 | [Determine if Two Strings Are Close](https://leetcode.com/problems/determine-if-two-strings-are-close/) | Medium | [Java](./src/com/kr/HashMapOrSet/LC1657DetermineIfTwoStringsAreClose.java) |
+| 23 | 2352 | [Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/) | Medium | [Java](./src/com/kr/HashMapOrSet/LC2352EqualRowAndColumnPairs.java) |
 
 ---
 
