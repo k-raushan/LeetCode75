@@ -80,3 +80,6 @@ Tracking my progress through the LeetCode 75 study plan. This repository contain
 ### 🔑 Hash Map & Set
 * **Constructive vs. Destructive Logic:** Built result lists by checking `!set.contains()` rather than modifying sets during iteration to avoid `ConcurrentModificationException`.
 * **Frequency Mapping:** Used `getOrDefault` to create frequency maps and checked uniqueness by comparing `map.size()` to `new HashSet(map.values()).size()`.
+* **Character/Frequency Decoupling:** Learned that strings are "close" if they share the same unique character set and their frequency counts match, regardless of which character has which count.
+* **Array vs. Collection Equality:** Discovered that `HashSet<int[]>` fails because arrays use reference equality (memory address), whereas `HashSet<List<Integer>>` works because `List` implements value-based equality.
+* **Polynomial Rolling Hash:** Explored the "Gold Standard" optimization of converting sequences into a single `long` hash to reduce space complexity from $O(N^2)$ to $O(N)$ and improve lookup speed.
