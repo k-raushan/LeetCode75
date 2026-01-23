@@ -63,6 +63,7 @@ Tracking my progress through the LeetCode 75 study plan. This repository contain
 | Day | # | Title | Difficulty | Solution |
 | :--- | :--- | :--- | :--- | :--- |
 | 24 | 2390 | [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/) | Medium | [Java](./src/com/kr/stack/LC2390RemovingStarsFromAString.java) |
+| 25 | 735 | [Asteroid Collision](https://leetcode.com/problems/asteroid-collision/) | Medium | [Java](./src/com/kr/stack/LC735AsteroidCollision.java) |
 
 ---
 
@@ -95,3 +96,5 @@ Tracking my progress through the LeetCode 75 study plan. This repository contain
 ### 🔑 Stack
 * **LIFO for "Undo" Logic:** Identified that problems requiring a "backspace" or "undo" behavior are perfectly suited for Stack's Last-In-First-Out (LIFO) property.
 * **StringBuilder as an Optimized Stack:** Learned that `StringBuilder` can perform `append()` and `deleteCharAt(length - 1)` to mimic a Stack with $O(1)$ average time complexity while avoiding the formatting overhead of `java.util.Stack`.
+* **Collision Chain Reactions:** Used a `while` loop within a `for` loop to handle multiple collisions caused by a single element.
+* **State Management:** Implemented a `boolean` flag (`destroyed`) to track if an element survived a series of interactions before deciding to push it onto the stack.
