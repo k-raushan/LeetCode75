@@ -66,6 +66,12 @@ Tracking my progress through the LeetCode 75 study plan. This repository contain
 | 25 | 735 | [Asteroid Collision](https://leetcode.com/problems/asteroid-collision/) | Medium | [Java](./src/com/kr/stack/LC735AsteroidCollision.java) |
 | 26 | 394 | [Decode String](https://leetcode.com/problems/decode-string/) | Medium | [Java](./src/com/kr/stack/LC394DecodeString.java) |
 
+### 🔹 Queue
+
+| Day | # | Title | Difficulty | Solution |
+| :--- | :--- | :--- | :--- | :--- |
+| 27 | 933 | [Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/) | Easy | [Java](./src/com/kr/queue/LC933NumberOfRecentCalls.java) |
+
 ---
 
 ## 💡 Key Technical Insights
@@ -101,3 +107,8 @@ Tracking my progress through the LeetCode 75 study plan. This repository contain
 * **State Management:** Implemented a `boolean` flag (`destroyed`) to track if an element survived a series of interactions before deciding to push it onto the stack.
 * **Multi-Stack Coordination:** Solved nested encoding problems by using two synchronized stacks—one for repeat counts and one for string segments—to maintain context during recursive-like patterns.
 * **Context Preservation:** Learned to handle nested brackets `3[a2[c]]` by pushing the "outer" state onto a stack when entering a bracket and merging it when exiting to prevent "inner" values from overwriting them.
+
+### 🔑 Queue
+* **FIFO for Time-Windows:** Identified that Queue's First-In-First-Out property is ideal for "sliding window" problems where we only care about the most recent data points.
+* **Visualizing the Window:** Used console logging to track how the "lower bound" ($t-3000$) forces older pings out of the queue to maintain an accurate recent count.
+* **Amortized Efficiency:** Confirmed that even with a `while` loop, the process remains $O(1)$ amortized because each unique ping enters and exits the queue exactly once.
