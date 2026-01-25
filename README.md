@@ -64,6 +64,7 @@ Tracking my progress through the LeetCode 75 study plan. This repository contain
 | :--- | :--- | :--- | :--- | :--- |
 | 24 | 2390 | [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/) | Medium | [Java](./src/com/kr/stack/LC2390RemovingStarsFromAString.java) |
 | 25 | 735 | [Asteroid Collision](https://leetcode.com/problems/asteroid-collision/) | Medium | [Java](./src/com/kr/stack/LC735AsteroidCollision.java) |
+| 26 | 394 | [Decode String](https://leetcode.com/problems/decode-string/) | Medium | [Java](./src/com/kr/stack/LC394DecodeString.java) |
 
 ---
 
@@ -98,3 +99,5 @@ Tracking my progress through the LeetCode 75 study plan. This repository contain
 * **StringBuilder as an Optimized Stack:** Learned that `StringBuilder` can perform `append()` and `deleteCharAt(length - 1)` to mimic a Stack with $O(1)$ average time complexity while avoiding the formatting overhead of `java.util.Stack`.
 * **Collision Chain Reactions:** Used a `while` loop within a `for` loop to handle multiple collisions caused by a single element.
 * **State Management:** Implemented a `boolean` flag (`destroyed`) to track if an element survived a series of interactions before deciding to push it onto the stack.
+* **Multi-Stack Coordination:** Solved nested encoding problems by using two synchronized stacks—one for repeat counts and one for string segments—to maintain context during recursive-like patterns.
+* **Context Preservation:** Learned to handle nested brackets `3[a2[c]]` by pushing the "outer" state onto a stack when entering a bracket and merging it when exiting to prevent "inner" values from overwriting them.
