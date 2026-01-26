@@ -71,6 +71,7 @@ Tracking my progress through the LeetCode 75 study plan. This repository contain
 | Day | # | Title | Difficulty | Solution |
 | :--- | :--- | :--- | :--- | :--- |
 | 27 | 933 | [Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/) | Easy | [Java](./src/com/kr/queue/LC933NumberOfRecentCalls.java) |
+| 28 | 649 | [Dota2 Senate](https://leetcode.com/problems/dota2-senate/) | Medium | [Java](./src/com/kr/queue/LC649Dota2Senate.java) |
 
 ---
 
@@ -112,3 +113,8 @@ Tracking my progress through the LeetCode 75 study plan. This repository contain
 * **FIFO for Time-Windows:** Identified that Queue's First-In-First-Out property is ideal for "sliding window" problems where we only care about the most recent data points.
 * **Visualizing the Window:** Used console logging to track how the "lower bound" ($t-3000$) forces older pings out of the queue to maintain an accurate recent count.
 * **Amortized Efficiency:** Confirmed that even with a `while` loop, the process remains $O(1)$ amortized because each unique ping enters and exits the queue exactly once.
+
+### 🔑 Queue
+* **FIFO for Turn-Based Logic:** Used Queues to simulate a circular voting process where order of action determines the outcome.
+* **Index Tracking over Values:** Realized that storing element indices instead of character values allows for easier management of turn order and "next round" positioning.
+* **Simulating Circularity:** Used the `index + n` technique to move survivors to the end of the line for the next round. This ensures they don't skip over senators who haven't voted yet while maintaining the original voting sequence.
