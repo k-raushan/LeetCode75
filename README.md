@@ -73,6 +73,12 @@ Tracking my progress through the LeetCode 75 study plan. This repository contain
 | 27 | 933 | [Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/) | Easy | [Java](./src/com/kr/queue/LC933NumberOfRecentCalls.java) |
 | 28 | 649 | [Dota2 Senate](https://leetcode.com/problems/dota2-senate/) | Medium | [Java](./src/com/kr/queue/LC649Dota2Senate.java) |
 
+### 🔹 Linked List
+
+| Day | # | Title | Difficulty | Solution |
+| :--- | :--- | :--- | :--- | :--- |
+| 29 | 2095 | [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/) | Medium | [Java](./src/com/kr/linkedlist/LC2095DeleteTheMiddleNodeOfALinkedList.java) |
+
 ---
 
 ## 💡 Key Technical Insights
@@ -118,3 +124,9 @@ Tracking my progress through the LeetCode 75 study plan. This repository contain
 * **FIFO for Turn-Based Logic:** Used Queues to simulate a circular voting process where order of action determines the outcome.
 * **Index Tracking over Values:** Realized that storing element indices instead of character values allows for easier management of turn order and "next round" positioning.
 * **Simulating Circularity:** Used the `index + n` technique to move survivors to the end of the line for the next round. This ensures they don't skip over senators who haven't voted yet while maintaining the original voting sequence.
+
+### 🔑 Linked List
+* **Two-Pointer Strategy:** Mastered the Fast and Slow pointer (Tortoise and Hare) technique to find the middle of a linked list in $O(n)$ time with a single traversal.
+* **Structural Deletion:** Learned that deleting a node in a singly linked list requires a reference to the preceding node (`prev`) to re-route the `next` pointer around the target.
+* **Manual Chain Construction:** Practiced manual `ListNode` linking and traversal (`current = current.next`) to better understand how data is connected in non-contiguous memory.
+* **Edge Case Awareness:** Handled the specific case where a list has only one node, necessitating a return of `null` as the head itself is the "middle" to be removed.
