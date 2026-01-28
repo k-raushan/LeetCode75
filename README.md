@@ -78,6 +78,7 @@ Tracking my progress through the LeetCode 75 study plan. This repository contain
 | Day | # | Title | Difficulty | Solution |
 | :--- | :--- | :--- | :--- | :--- |
 | 29 | 2095 | [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/) | Medium | [Java](./src/com/kr/linkedlist/LC2095DeleteTheMiddleNodeOfALinkedList.java) |
+| 30 | 328 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | Medium | [Java](./src/com/kr/linkedlist/LC328OddEvenLinkedList.java) |
 
 ---
 
@@ -130,3 +131,9 @@ Tracking my progress through the LeetCode 75 study plan. This repository contain
 * **Structural Deletion:** Learned that deleting a node in a singly linked list requires a reference to the preceding node (`prev`) to re-route the `next` pointer around the target.
 * **Manual Chain Construction:** Practiced manual `ListNode` linking and traversal (`current = current.next`) to better understand how data is connected in non-contiguous memory.
 * **Edge Case Awareness:** Handled the specific case where a list has only one node, necessitating a return of `null` as the head itself is the "middle" to be removed.
+
+### 🔑 Linked List
+* **Chain Separation Logic:** Learned to conceptually split a single list into two distinct "trains" (Odd and Even) and rearrange their pointers in a single pass.
+* **Leapfrog Iteration:** Mastered the pattern of updating `odd.next` to the node after `even`, then immediately moving the `odd` pointer forward to continue the sequence.
+* **State Visualization:** Used internal print loops to observe how re-assigning a single `.next` pointer affects the entire reachable chain from the `head`.
+* **Stitching Technique:** Reinforced the importance of saving the `evenHead` reference to reconnect the two separate chains once the linear scan is complete.
