@@ -79,6 +79,7 @@ Tracking my progress through the LeetCode 75 study plan. This repository contain
 | :--- | :--- | :--- | :--- | :--- |
 | 29 | 2095 | [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/) | Medium | [Java](./src/com/kr/linkedlist/LC2095DeleteTheMiddleNodeOfALinkedList.java) |
 | 30 | 328 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | Medium | [Java](./src/com/kr/linkedlist/LC328OddEvenLinkedList.java) |
+| 31 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy | [Java](./src/com/kr/linkedlist/LC206ReverseLinkedList.java) |
 
 ---
 
@@ -137,3 +138,9 @@ Tracking my progress through the LeetCode 75 study plan. This repository contain
 * **Leapfrog Iteration:** Mastered the pattern of updating `odd.next` to the node after `even`, then immediately moving the `odd` pointer forward to continue the sequence.
 * **State Visualization:** Used internal print loops to observe how re-assigning a single `.next` pointer affects the entire reachable chain from the `head`.
 * **Stitching Technique:** Reinforced the importance of saving the `evenHead` reference to reconnect the two separate chains once the linear scan is complete.
+
+### 🔑 Linked List
+* **Pointer Reversal:** Learned to reverse a list in-place by flipping the `next` reference of each node to point to the previously processed node.
+* **Temporary Storage:** Understood the necessity of a `nextTemp` variable to store the reference to the remaining list before breaking the current node's connection.
+* **Head Transition:** Practiced shifting the "new head" (`revised`) as the list is built backward, ensuring the final return is the original tail.
+* **Logic Simplification:** Realized that initializing the previous pointer to `null` handles the end-of-list termination naturally, removing the need for conditional checks.
