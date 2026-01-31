@@ -80,7 +80,7 @@ Tracking my progress through the LeetCode 75 study plan. This repository contain
 | 29 | 2095 | [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/) | Medium | [Java](./src/com/kr/linkedlist/LC2095DeleteTheMiddleNodeOfALinkedList.java) |
 | 30 | 328 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | Medium | [Java](./src/com/kr/linkedlist/LC328OddEvenLinkedList.java) |
 | 31 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy | [Java](./src/com/kr/linkedlist/LC206ReverseLinkedList.java) |
-| 33 | 2130 | [Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/) | Medium | [Java](./src/com/kr/linkedlist/LC2130MaximumTwinSumOfALinkedList.java) |
+| 32 | 2130 | [Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/) | Medium | [Java](./src/com/kr/linkedlist/LC2130MaximumTwinSumOfALinkedList.java) |
 
 ---
 
