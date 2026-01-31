@@ -80,6 +80,7 @@ Tracking my progress through the LeetCode 75 study plan. This repository contain
 | 29 | 2095 | [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/) | Medium | [Java](./src/com/kr/linkedlist/LC2095DeleteTheMiddleNodeOfALinkedList.java) |
 | 30 | 328 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | Medium | [Java](./src/com/kr/linkedlist/LC328OddEvenLinkedList.java) |
 | 31 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy | [Java](./src/com/kr/linkedlist/LC206ReverseLinkedList.java) |
+| 33 | 2130 | [Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/) | Medium | [Java](./src/com/kr/linkedlist/LC2130MaximumTwinSumOfALinkedList.java) |
 
 ---
 
@@ -144,3 +145,9 @@ Tracking my progress through the LeetCode 75 study plan. This repository contain
 * **Temporary Storage:** Understood the necessity of a `nextTemp` variable to store the reference to the remaining list before breaking the current node's connection.
 * **Head Transition:** Practiced shifting the "new head" (`revised`) as the list is built backward, ensuring the final return is the original tail.
 * **Logic Simplification:** Realized that initializing the previous pointer to `null` handles the end-of-list termination naturally, removing the need for conditional checks.
+
+### 🔑 Linked List
+* **Optimization Transition:** Developed two solutions for "Twin Sum"—one using length-counting and another using the Fast/Slow pointer method—effectively reducing the number of passes required to find the midpoint.
+* **Structural Reversal Mastery:** Reapplied the iterative reversal pattern to the second half of the list, making symmetrical "twin" nodes accessible in a single final traversal.
+* **Math in Traversal:** Used `Math.max()` to track the peak sum in-place, eliminating the need for extra space to store paired values.
+* **In-Place Modification:** Confirmed $O(1)$ space efficiency by manipulating existing `ListNode` references, a key requirement for handling large-scale linked structures.
