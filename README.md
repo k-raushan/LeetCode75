@@ -82,6 +82,12 @@ Tracking my progress through the LeetCode 75 study plan. This repository contain
 | 31 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy | [Java](./src/com/kr/linkedlist/LC206ReverseLinkedList.java) |
 | 32 | 2130 | [Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/) | Medium | [Java](./src/com/kr/linkedlist/LC2130MaximumTwinSumOfALinkedList.java) |
 
+### 🔹 Binary Tree - DFS
+
+| Day | # | Title | Difficulty | Solution |
+| :--- | :--- | :--- | :--- | :--- |
+| 33 | 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Easy | [Java](./src/com/kr/binarytree/dfs/LC104MaximumDepthOfBinaryTree.java) |
+| 34 | 872 | [Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/) | Easy | [Java](./src/com/kr/binarytree/dfs/LC872LeafSimilarTrees.java) |
 ---
 
 ## 💡 Key Technical Insights
@@ -151,3 +157,16 @@ Tracking my progress through the LeetCode 75 study plan. This repository contain
 * **Structural Reversal Mastery:** Reapplied the iterative reversal pattern to the second half of the list, making symmetrical "twin" nodes accessible in a single final traversal.
 * **Math in Traversal:** Used `Math.max()` to track the peak sum in-place, eliminating the need for extra space to store paired values.
 * **In-Place Modification:** Confirmed $O(1)$ space efficiency by manipulating existing `ListNode` references, a key requirement for handling large-scale linked structures.
+
+### 🔑 Binary Tree
+* **Level-Order Mapping:** Mastered the translation of LeetCode's array representation `[3, 9, 20, null, null, 15, 7]` into a physical pointer-based tree structure.
+* **Recursive Depth Calculation:** Confirmed that the height of a node is determined by `1 + Math.max(left, right)`, effectively using a post-order traversal logic.
+* **Complexity Analysis:** Identified $O(n)$ time complexity for visiting all nodes and $O(h)$ space complexity due to the recursive call stack depth.
+* **Base Case Implementation:** Reinforced the necessity of the `null` check as the fundamental termination point for all recursive tree algorithms.
+
+
+### 🔑 Binary Tree
+* **Leaf Identification:** Defined a "leaf" node programmatically as any node where both `left` and `right` child references are `null`.
+* **Sequence Preservation:** Utilized Depth-First Search (DFS) to guarantee that leaf nodes are collected in the exact left-to-right order required for comparison.
+* **Helper Method Pattern:** Used a private recursive helper to handle the traversal logic, keeping the main solution method clean and focused on the final comparison.
+* **Collection Equality:** Leveraged `List.equals()` in Java to compare the content and order of two leaf sequences efficiently.
