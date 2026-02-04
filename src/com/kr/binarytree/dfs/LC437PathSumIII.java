@@ -79,8 +79,7 @@ class SolutionLC437 {
 		// 1. Count paths starting at THIS node
 		long countFromRoot = countPaths(root, targetSum);
 
-		// 2. Ask the left and right children to do the same (The
-		// Manager moves down)
+		// 2. the left and right children should do the same
 		int countFromLeft = pathSum(root.left, targetSum);
 		int countFromRight = pathSum(root.right, targetSum);
 
@@ -98,8 +97,7 @@ class SolutionLC437 {
 		}
 
 		// Continue looking down to see if further nodes (even if they
-		// sum to 0)
-		// create more paths
+		// sum to 0) create more paths
 		return count + countPaths(node.left, remainingSum - node.val)
 				+ countPaths(node.right, remainingSum - node.val);
 	}
