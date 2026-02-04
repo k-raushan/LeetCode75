@@ -88,6 +88,7 @@ Tracking my progress through the LeetCode 75 study plan. This repository contain
 | :--- | :--- | :--- | :--- | :--- |
 | 33 | 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Easy | [Java](./src/com/kr/binarytree/dfs/LC104MaximumDepthOfBinaryTree.java) |
 | 34 | 872 | [Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/) | Easy | [Java](./src/com/kr/binarytree/dfs/LC872LeafSimilarTrees.java) |
+| 36 | 437 | [Path Sum III](https://leetcode.com/problems/path-sum-iii/) | Medium | [Java](./src/com/kr/binarytree/dfs/LC437PathSumIII.java) |
 ---
 
 ## 💡 Key Technical Insights
@@ -170,3 +171,9 @@ Tracking my progress through the LeetCode 75 study plan. This repository contain
 * **Sequence Preservation:** Utilized Depth-First Search (DFS) to guarantee that leaf nodes are collected in the exact left-to-right order required for comparison.
 * **Helper Method Pattern:** Used a private recursive helper to handle the traversal logic, keeping the main solution method clean and focused on the final comparison.
 * **Collection Equality:** Leveraged `List.equals()` in Java to compare the content and order of two leaf sequences efficiently.
+
+### 🔑 Binary Tree
+* **Recursive Nesting:** Learned to nest recursive calls where one function traverses the tree structure while a second function calculates path-specific logic starting from each node.
+* **Overflow Protection:** Recognized that tree node values and cumulative sums can exceed `Integer.MAX_VALUE`, requiring the use of `long` for intermediate arithmetic.
+* **Path Definition:** Understood that "downward paths" do not necessarily need to start at the root or end at a leaf, fundamentally changing the base-case logic compared to Path Sum I or II.
+* **Sub-problem Delegation:** Effectively used the "Manager" pattern where the main function delegates the heavy lifting of path counting to a specialized helper.

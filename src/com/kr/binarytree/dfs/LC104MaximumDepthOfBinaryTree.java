@@ -60,7 +60,8 @@ class SolutionLC104 {
 		int rightDepth = maxDepth(root.right);
 		System.out.println("For node : " + root.val
 				+ " right depth is : " + rightDepth);
-		System.out.println("Max depth at this stage is : "
+		System.out.println("Node : " + root.val
+				+ " and Max depth at this stage is : "
 				+ (Math.max(leftDepth, rightDepth) + 1));
 		System.out.println("**********************************");
 
