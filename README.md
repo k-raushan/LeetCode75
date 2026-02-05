@@ -89,6 +89,7 @@ Tracking my progress through the LeetCode 75 study plan. This repository contain
 | 33 | 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Easy | [Java](./src/com/kr/binarytree/dfs/LC104MaximumDepthOfBinaryTree.java) |
 | 34 | 872 | [Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/) | Easy | [Java](./src/com/kr/binarytree/dfs/LC872LeafSimilarTrees.java) |
 | 36 | 437 | [Path Sum III](https://leetcode.com/problems/path-sum-iii/) | Medium | [Java](./src/com/kr/binarytree/dfs/LC437PathSumIII.java) |
+| 37 | 1372 | [Longest ZigZag Path in a Binary Tree](https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/) | Medium | [Java](./src/com/kr/binarytree/dfs/LC1372LongestZigZagPath.java) |
 ---
 
 ## 💡 Key Technical Insights
@@ -177,3 +178,9 @@ Tracking my progress through the LeetCode 75 study plan. This repository contain
 * **Overflow Protection:** Recognized that tree node values and cumulative sums can exceed `Integer.MAX_VALUE`, requiring the use of `long` for intermediate arithmetic.
 * **Path Definition:** Understood that "downward paths" do not necessarily need to start at the root or end at a leaf, fundamentally changing the base-case logic compared to Path Sum I or II.
 * **Sub-problem Delegation:** Effectively used the "Manager" pattern where the main function delegates the heavy lifting of path counting to a specialized helper.
+
+### 🔑 Binary Tree
+* **Alternating State Logic:** Implemented a directional flag in DFS to enforce alternating movement patterns (Left -> Right -> Left).
+* **Path Reset Mechanic:** Learned that when a specific structural constraint (zigzag) is broken, the recursion should not stop, but rather reset its counter to evaluate the current node as a potential new starting point.
+* **Global Optimization:** Used a class-level variable to maintain the "Global Maximum" across all recursive branches, simplifying the return values of the DFS function.
+* **Greedy Exploration:** Recognized that every node serves as both a potential "continuation" of an existing path and the "start" of a brand new one.
